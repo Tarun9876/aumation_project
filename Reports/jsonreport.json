@@ -1,0 +1,156 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-03T20:44:17.613Z",
+        "line": 6,
+        "name": "login page",
+        "description": "",
+        "id": "uniform-login-page;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5263088999,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on homepage",
+            "match": {
+              "location": "project.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171002700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter invalid credentials",
+            "match": {
+              "location": "project.user_enter_invalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5147121600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on submit button",
+            "match": {
+              "location": "project.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validation message appears",
+            "match": {
+              "location": "project.validation_message_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tarun"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-03T20:44:28.198Z",
+        "line": 14,
+        "name": "login page",
+        "description": "",
+        "id": "uniform-login-page;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3935201200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on homepage",
+            "match": {
+              "location": "project.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163365601,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter valid credentials",
+            "match": {
+              "location": "project.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13772083600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on submit button",
+            "match": {
+              "location": "project.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigates to homepage",
+            "match": {
+              "location": "project.user_navigates_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tarun"
+          }
+        ]
+      }
+    ],
+    "name": "uniform login page",
+    "description": "  I want to use this template for my feature file",
+    "id": "uniform-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/project.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
